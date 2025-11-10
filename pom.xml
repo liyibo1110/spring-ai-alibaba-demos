@@ -8,6 +8,9 @@
         <module>chat-ollama-demo</module>
         <module>alibaba-deepseek-demo</module>
         <module>alibaba-ai-demo</module>
+        <module>prompt-demo</module>
+        <module>structured-demo</module>
+        <module>rag-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

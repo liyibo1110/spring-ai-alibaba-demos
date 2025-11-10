@@ -1,4 +1,4 @@
-package com.github.liyibo1110.ollama.controller;
+package com.github.liyibo1110.ai.controller;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.AbstractChatMemoryAdvisor;
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/ai")
-public class ChatController {
+public class ChatClientController {
     private final ChatClient chatClient;
 
-    public ChatController(ChatModel chatModel) {
+    public ChatClientController(ChatModel chatModel) {
         this.chatClient = ChatClient.builder(chatModel)
                 .defaultSystem("你是一个旅游规划师，请根据用户的需求提供旅游规划建议。")
                 .defaultAdvisors(new MessageChatMemoryAdvisor(new InMemoryChatMemory()))

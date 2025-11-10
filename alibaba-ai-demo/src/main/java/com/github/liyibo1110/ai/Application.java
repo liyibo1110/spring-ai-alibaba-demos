@@ -1,4 +1,4 @@
-package com.github.liyibo1110.ollama;
+package com.github.liyibo1110.ai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

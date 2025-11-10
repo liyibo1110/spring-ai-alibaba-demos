@@ -1,4 +1,4 @@
-package com.github.liyibo1110.ollama.controller;
+package com.github.liyibo1110.deepseek.controller;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.model.ChatResponse;
